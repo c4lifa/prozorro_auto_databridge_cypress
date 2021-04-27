@@ -1,0 +1,25 @@
+{
+  "name": "prozorro_auto_databridge_cypress",
+  "version": "1.0.0",
+  "description": "automated test framework for LL/RLL databridge prozorro.sale project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run-dev": "cypress run --config-file cypress-dev.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c4lifa/prozorro_auto_databridge_cypress.git"
+  },
+  "author": "c4lifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c4lifa/prozorro_auto_databridge_cypress/issues"
+  },
+  "homepage": "https://github.com/c4lifa/prozorro_auto_databridge_cypress#readme",
+  "dependencies": {
+    "cypress": "^7.2.0",
+    "moment": "^2.29.1",
+    "typescript": "^4.2.4"
+  }
+}
