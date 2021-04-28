@@ -11,3 +11,7 @@ export const access_token = {
     sandbox: '',
     staging: ''
 }
+
+export const rll_access_token = {
+    dev: 'test_broker_1_token'
+}
