@@ -7,7 +7,7 @@ import {validateEmail} from "../../shared/functions/emailValidator";
 const moment = require('moment');
 
 
-describe('Парсинг об\'єкта реєстру до процедури LLE', () => {
+describe('Парсинг об\'єкта реєстру до процедури LLD', () => {
     let token = null;
     let rllToken = null;
     if (Cypress.env() && Cypress.env('env')) {
